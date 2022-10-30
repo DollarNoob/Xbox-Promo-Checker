@@ -1,0 +1,38 @@
+{
+  "name": "xbox-promo-checker",
+  "version": "1.0.0",
+  "description": "A simple Xbox promotional code checker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DollarNoob/Xbox-Promo-Checker.git"
+  },
+  "keywords": [
+    "xbox",
+    "promo",
+    "promotion",
+    "promotional",
+    "code",
+    "checker",
+    "promocode",
+    "gamepass",
+    "gp",
+    "xgp"
+  ],
+  "author": "DollarNoob",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DollarNoob/Xbox-Promo-Checker/issues"
+  },
+  "homepage": "https://github.com/DollarNoob/Xbox-Promo-Checker#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.7"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
